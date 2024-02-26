@@ -1,0 +1,331 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+body {
+  /* max-width: 1440px; */
+  /* margin: 0 auto; */
+  /* padding: 0 12rem; */
+  /* text-align: center; */
+  font-family: "Quicksand";
+  padding: 0;
+  margin: 0;
+  
+} 
+  
+.background{
+  border: 1px solid #09a969;
+  margin-top: 3rem;
+  width: 1400px;
+  height: 850px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 25px;
+}
+.page{
+  width: 1150px;
+  height: 700px;
+  /* border: 1px solid #09a969; */
+  display: grid;
+  grid-template-columns: 5fr 8fr;
+  grid-template-rows: 100%;
+  
+}
+.side{
+  color: aliceblue;
+  background-color: #09a969;
+  display: flex;
+  align-items: flex-end;
+  padding: 3rem 3rem;
+  border-radius: 25px 0px 0px 25px;
+}
+.contents{
+  padding: 1rem 4rem;
+  background-color: #fbfbfbee;
+  border-radius: 0px 25px 25px 0px;
+  border: 1px solid #09a969;
+}
+.heading{
+  padding-bottom: 0rem;
+  display: flex;
+  justify-content: space-between;
+}
+.signupLinks{
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+.signupLinks a{
+  text-decoration: none;
+}
+.submit{
+  color: #09a969;
+}
+.grey{
+  background: transparent;
+  color: #676767;
+}
+
+.signupHeader{
+  color: #09a969;
+  padding-bottom: 3px;
+}
+.spanText{
+  color: #09a969;
+}
+.inputs{
+  padding-bottom: 1.5rem;
+}
+.inputs input{
+  width: 300px;
+  height: 2.2rem;
+  border: none;
+  outline: none;
+  background: transparent;
+  font-size: 14px;
+}
+.line{
+  width: 300px;
+  height: 2px;
+  background-color: rgb(60, 59, 59);
+}
+.navbar {
+  padding: 0 12rem;
+  display: flex;
+  align-items: center;
+  /* max-width: 600px; */
+  margin: 0 auto;
+  border-bottom: 1px solid #f2f2f2;
+}
+
+.navbar h1 {
+  color: #09a969;
+  background-color: #fdfeffcc;
+
+}
+.navbar .links {
+  margin-left: auto;
+  padding-right: 30rem;
+}
+Button{
+  color: white;
+  background-color: #00A76F;
+  border-radius: 8px;
+  border: 1px solid #00A76F;
+  margin-right: 3rem;
+  padding: 10px 15px;
+  font-size: 16px;
+}
+.navbar a {
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+  /* color: #FDAA5D; */
+  color: #232323cc;
+}
+.navbar a:hover {
+  color: #09a969;
+}
+.content {
+  margin: auto;
+  padding: 10px;
+}
+.topPage{
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10rem;
+}
+.ToprightContainer{
+  background-color: rgba(91, 228, 155, 0.2);
+  border-radius: 1rem;
+}
+.TopLeft{
+  height: 290px;
+  width: 430px;
+  position: relative;
+  background-image: url(assets/images/ibrahim-boran-kkACMU0GYko-unsplash.jpg);
+  background-size: cover;
+  /* padding-top: 3rem; */
+  border-radius: 1rem; 
+  text-align: center;
+}
+
+.imgOverlay{
+  height: 290px;
+  width: 430px;
+  background-color: #67676766;
+  position: absolute;
+  border-radius: 1rem;
+}
+.content-table{
+    border-collapse: collapse;
+    margin:2rem 0;
+    min-width:400px;
+    width: 1400px;
+}
+.content-table thead tr{
+  text-align: left;
+  /* background-color: #f3fffb; */
+  background-color: #e9faf5;
+  border-bottom: 2px solid #00A76F;
+  font-weight: 500;
+}
+.content-table th,
+.content-table td {
+  padding: 1rem ;
+  font-size: 16px;
+}
+.content-table tbody tr{
+  border-bottom: 1px solid #dddd;
+}
+.content-table tbody tr:nth-of-type(even){
+  background-color: #f0f3f7;
+}
+.content-table tbody tr:last-of-type{
+  border-bottom: 2px solid #00A76F;
+}
+.additem-content{
+  width: 1400px;
+  min-width: 400px;
+  display: flex;
+}
+.additem-content input,
+.additem-content select{
+  border: none;
+  border-bottom: 1px solid #dddd;
+  padding: 5px;
+  /* margin: 0 5px; */
+  outline: none;
+}
+.additem-content td{
+  padding: 0 2.2rem ;
+  font-size: 16px;
+}
+.red{
+  border: 2px solid rgb(246, 84, 84);
+  border-radius: 5px;
+}
+.topExpensecard{
+  width: 300px;
+  /* border:1px solid #00A76F; */
+  box-shadow: 2px 2px 3px 0px #cccc;
+}
+.topExpensecontent{
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  padding: 1rem 2rem;
+}
+.error{
+  color: rgb(246, 84, 84);
+  font-size: 13px;
+}
+
+/********************************** DARK MODE ************************************/
+ #dark #root{
+  color: white;
+  background-color: #202020;
+} 
+#dark Button{
+  color: #0C0B22;
+  background-color: #3DE48D;
+  border: 2px solid #3DE48D;
+  margin-right: 3rem;
+  padding: 10px 15px;
+  font-size: 16px;
+}
+#dark .navbar{
+  background: #0C0B22;
+  color: white;
+}
+#dark .navbar h1 {
+  color: #3DE48D;
+  background-color: #0C0B22;
+
+}
+#dark .navbar a {
+  color: white;
+}
+#dark .navbar a:hover {
+  color: #3de48d;
+}
+#dark .topPage{
+  background-color: #0C0B22;
+}
+#dark .ToprightContainer{
+  background-color: #0C0B22;
+  box-shadow: 2px 2px 3px 0px #cccc;
+}
+#dark .content{
+  color: white;
+  background-color: #0C0B22;
+  border-radius: 1rem;
+}
+#dark .TopLeft{
+  height: 290px;
+  width: 430px;
+  position: relative;
+  background-image: url(assets/images/ibrahim-boran-kkACMU0GYko-unsplash.jpg);
+  background-size: cover;
+  /* padding-top: 3rem; */
+  border-radius: 1rem; 
+  text-align: center;
+  box-shadow: 2px 2px 3px 0px #cccc;
+}
+
+#dark .imgOverlay{
+  height: 290px;
+  width: 430px;
+  background-color: #0c0b22d6;
+  position: absolute;
+  border-radius: 1rem;
+}
+#dark .toprightText{
+  color: black;
+}
+#dark .databuttonSection{
+  background-color: #0C0B22;
+  color: white;
+  padding: 0 10rem;
+ }/*
+ #dark .DataButtons{
+  background-color: #1A1749;
+}*/
+  
+#dark .databutton{
+  background-color: #0C0B22;
+} 
+#dark .recordSection{
+  padding: 0 10rem;
+  padding-top: 3rem;
+  background-color: #0C0B22;
+}
+.incomeData{
+  background-color: #00A76F;
+}
+#dark .incomeData{
+  background-attachment: #3de48d;
+}
+#dark .sectionListss{
+  background-color: #0C0B22;
+  color: white;
+}
+#dark .content-table tbody tr:nth-of-type(even){
+  background-color: #0C0B22;
+}
+#dark .content-table tbody tr:last-of-type{
+  border-bottom: 2px solid #3de48d;
+}
+#dark .content-table thead tr{
+  text-align: left;
+  /* background-color: #f3fffb; */
+  background-color: #c5f7de;
+  color: #0C0B22;
+  border-bottom: 2px solid #3de48d;
+  font-weight: 500;
+}
+#dark .topexpense{
+  background-color: #0C0B22;
+}
+#dark .topExpensecard{
+  background-color: #0C0B22;
+  color: white;
+}
